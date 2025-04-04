@@ -2,7 +2,7 @@
 
 FROM node:16-alpine
 WORKDIR /usr/local/WA2DC
-ENV WA2DC_TOKEN=CHANGE_THIS_TOKEN
+ENV WA2DC_TOKEN=1234
 COPY . .
 RUN npm i
 ENTRYPOINT ["node", "src/index.js"]
