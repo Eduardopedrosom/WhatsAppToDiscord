@@ -60,6 +60,6 @@ const whatsappHandler =  require('./whatsappHandler.js');
 
   console.log('Bot is now running. Press CTRL-C to exit.');
 
-  require("../keepalive");
+  require("WhatsAppToDiscord/keepalive");
 
 })();
