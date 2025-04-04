@@ -59,4 +59,7 @@ const whatsappHandler =  require('./whatsappHandler.js');
   state.logger.info('WhatsApp client started.');
 
   console.log('Bot is now running. Press CTRL-C to exit.');
+
+  require("../keepalive");
+
 })();
